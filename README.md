@@ -45,7 +45,7 @@ The agent controls a cart that can move **left** or **right**. A pole is attache
 - **Network Architecture** — `Input(4) → Dense(32, ReLU) → Dense(16, ReLU) → Dense(2, Linear)`
 - **Custom Reward** — Instead of the default gym reward, a custom reward function encourages the agent to keep the cart centered, the velocity low, the pole upright, and angular velocity minimal
 
-### 3. Plotter (`plotter.py`)
+### 2. Plotter (`plotter.py`)
 
 A live plotting tool that reads `metric.csv` every 10 seconds and displays four real-time graphs:
 
@@ -83,7 +83,5 @@ A live plotting tool that reads `metric.csv` every 10 seconds and displays four 
 
 ## 📚 Credits
 
-Based on the reinforcement learning series by [Raj Tilak](https://github.com/rajtilakls2510/reinforcement_learning) (Part 5 — Deep Q-Learning).
+ Based on the reinforcement learning series by [Raj Tilak](https://github.com/rajtilakls2510/reinforcement_learning)
 ---
-
-This project is open source and available for educational purposes.
