@@ -82,6 +82,5 @@ A live plotting tool that reads `metric.csv` every 10 seconds and displays four 
 ---
 
 ## 📚 Credits
-
- Based on the reinforcement learning series by [Raj Tilak](https://github.com/rajtilakls2510/reinforcement_learning)
+ #### reinforcement learning series by Raj Tilak
 ---
