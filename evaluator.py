@@ -5,7 +5,6 @@ from keras.models import load_model
 env = gym.make("MountainCar-v0")
 q_net = load_model("dqn_mountain_q_net")
 
-
 def policy(state, explore=0.0):
     action = tf.argmax(q_net(state)[0], output_type=tf.int32)
     if tf.random.uniform(shape=(), maxval=1) <= explore:
