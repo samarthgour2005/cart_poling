@@ -80,7 +80,3 @@ A live plotting tool that reads `metric.csv` every 10 seconds and displays four 
 - **[OpenCV](https://opencv.org/)** — Rendering the trained agent
 
 ---
-
-## 📚 Credits
- #### reinforcement learning series by Raj Tilak
----
